@@ -9,3 +9,4 @@ The app in this repo is deployed at https://next-js.onrender.com.
 ## Deploy
 
 Click the button below to deploy this app on Render.
+
