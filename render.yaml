@@ -1,3 +1,4 @@
+pullRequestPreviewsEnabled: true
 services:
 - type: web
   name: next-js
@@ -5,6 +6,7 @@ services:
   plan: starter
   buildCommand: cd dir; yarn; yarn build
   startCommand: yarn start
+  afterFirstDeployCommand: false
 # Uncomment the following to deploy this app as a static site on render
 # - type: web
 #   name: nextjs-static
