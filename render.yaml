@@ -6,7 +6,7 @@ services:
   plan: starter
   buildCommand: cd dir; yarn; yarn build
   startCommand: cd dir; yarn start
-  afterFirstDeployCommand: sleep 5 && false
+  afterFirstDeployCommand: false
 # Uncomment the following to deploy this app as a static site on render
 # - type: web
 #   name: nextjs-static
