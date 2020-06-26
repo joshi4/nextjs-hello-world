@@ -5,7 +5,7 @@ services:
   plan: starter
   buildCommand: cd dir; yarn; yarn build
   startCommand: cd dir; date; yarn start
-  afterFirstDeployCommand: echo hell; date; false
+  afterFirstDeployCommand: echo hell; false
   pullRequestPreviewsEnabled: true
 # Uncomment the following to deploy this app as a static site on render
 # - type: web
